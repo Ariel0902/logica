@@ -1,7 +1,7 @@
 # logica
 FizzBuzz: Escribe un programa que muestre todos los números del 1 al 100. Pero para los múltiplos de 3, muestra "Fizz" en lugar del número, y para los múltiplos de 5, muestra "Buzz". Para los números que son múltiplos de ambos, muestra "FizzBuzz".
 
-#resuelto
+# resuelto
 
     for numero in range(1, 101):
         if numero % 3 == 0 and numero % 5 == 0:
@@ -12,7 +12,7 @@ FizzBuzz: Escribe un programa que muestre todos los números del 1 al 100. Pero 
             print("Buzz")
         else:
             print(numero)
-            print()
+
 
 Suma de los números pares en un rango: Escribe un programa que sume todos los números pares en un rango dado, por ejemplo, de 1 a 100.
 
