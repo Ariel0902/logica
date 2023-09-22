@@ -12,7 +12,7 @@ FizzBuzz: Escribe un programa que muestre todos los números del 1 al 100. Pero 
             print("Buzz")
         else:
             print(numero)
-            
+            print()
 
 Suma de los números pares en un rango: Escribe un programa que sume todos los números pares en un rango dado, por ejemplo, de 1 a 100.
 
