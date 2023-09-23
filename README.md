@@ -15,6 +15,18 @@ FizzBuzz: Escribe un programa que muestre todos los números del 1 al 100. Pero 
 
 
 Suma de los números pares en un rango: Escribe un programa que sume todos los números pares en un rango dado, por ejemplo, de 1 a 100.
+# resuelto
+
+    RangoInicial = 1
+    RangoFinal = 100
+    suma = 0
+
+    for numero in range(RangoInicial, RangoFinal + 1):
+        if numero % 2 == 0:
+            suma += numero
+
+    print("La suma de los números pares en el rango dado", RangoInicial, "a", RangoFinal, "es:", suma)
+
 
 Factorial de un número: Escribe una función que calcule el factorial de un número dado. El factorial de un número entero positivo n se define como el producto de todos los enteros positivos desde 1 hasta n.
 
